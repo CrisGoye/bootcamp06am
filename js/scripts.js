@@ -45,7 +45,7 @@ formulario.addEventListener('submit',function(evento){
 
  function mostrarError(mensaje){
     //console.log(mensaje);
-    let error = document.createElement('p'); 
+    let error = document.createElement('p');
     error.textContent = mensaje;
     error.classList.add('error');
     //console.log(error);
