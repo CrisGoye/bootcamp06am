@@ -1,6 +1,7 @@
 /*paleta de colores general OJO*/
+/*2024/07/08 cambio color primario a verde*/
 :root{
-    --primario: #ffc107;
+    --primario: #32d54b;
     --oscuro: #212121;
     --blanco: #ffffff;
     --secundario: #0097A7;
@@ -161,7 +162,7 @@ h1, h2, h3{
     border: none;
 }
 
-.boton: hover{
+.boton:hover{
     cursor: pointer;
 }
 
@@ -263,6 +264,15 @@ h1, h2, h3{
 .enviar{
 
     width: 100%;
+}
+/*estilo para mensaje de error*/
+
+.error{
+    background-color: rgb(185, 0, 0);
+    text-align: center;
+    padding: 1rem;
+    color: var(--blanco);
+    text-transform: uppercase;
 }
 
 .footer{
